@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/backgroundPage">
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SCORING"
+        android:textColor="@color/pink1"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:textStyle="normal|bold"
+        android:paddingTop="30dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=" 2 points for correct answers"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_margin="0dp"
+        android:paddingLeft="30dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=" 1 point for answers that used a hint"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_margin="0dp"
+        android:paddingLeft="30dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=" 0 point for skipped questions"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_margin="0dp"
+        android:paddingLeft="30dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="-1 point for incorrect answers"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_margin="0dp"
+        android:paddingLeft="30dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="QUESTIONS"
+        android:textColor="@color/pink1"
+        android:textStyle="normal|bold"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:paddingTop="20dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="The app uses a database of 50 European countries and
+capitals as available on
+countries-ofthe-world.com"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_margin="0dp"
+        android:paddingLeft="30dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ABOUT"
+        android:textColor="@color/pink1"
+        android:textStyle="normal|bold"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:paddingTop="20dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="The app was created as a coursework project at UCL for COMP210P.
+Feel free to send any feedback to:
+
+Daniel Szabo
+daniel.szabo.14@ucl.ac.uk"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_margin="0dp"
+        android:paddingLeft="30dp"/>
+
+
+
+</LinearLayout>

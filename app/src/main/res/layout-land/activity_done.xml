@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/activity_main"
+                android:layout_width="match_parent"
+                android:background="@color/backgroundPage"
+                android:layout_height="match_parent"
+                tools:context="com.danielszabo.android.capitalquiz.QuizActivity">
+
+
+
+    s
+
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="130dp"
+        android:padding="20dp"
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/btnGroup"
+            android:paddingTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/txtTotalScore"
+                android:layout_gravity="center"
+                android:text="Score : 0"
+                android:textSize="30sp"
+                android:textColor="#f95555"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.07"/>
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_gravity="center"
+                android:text="XXX"
+                android:textSize="28sp"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15"/>
+
+
+            <Button
+                android:id="@+id/btnTryAgain"
+                android:layout_margin="8dp"
+                android:background="@color/pink1"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="TRY AGAIN"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+</RelativeLayout>

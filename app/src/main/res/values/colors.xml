@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#242E38</color>
+    <color name="colorAccent">#EE693F</color>
+    <color name="backgroundPage">#242e38</color>
+    <color name="black">#ffffff</color>
+
+    <color name="quizBackground">#f3f6f9</color>
+    <color name="quizText">#000000</color>
+    <color name="quizButtons1">#E05858</color>
+    <color name="quizButtons2">#5F968E</color>
+    <color name="quizButtons3">#BFDCCF</color>
+    <color name="quizButtons4">#BFDCCF</color>
+    <color name="answeredQuestion">#5F968E</color>
+    <color name="pink1">#f85555</color>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.danielszabo.android.capitalquiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.danielszabo.android.capitalquiz.Menu"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.danielszabo.android.capitalquiz.Done"></activity>
+        <activity android:name="com.danielszabo.android.capitalquiz.ScoreBoard"></activity>
+        <activity android:name="com.danielszabo.android.capitalquiz.QuizActivity"></activity>
+        <activity android:name="com.danielszabo.android.capitalquiz.Registration"></activity>
+        <activity android:name="com.danielszabo.android.capitalquiz.About"></activity>
+        <activity android:name="com.danielszabo.android.capitalquiz.Done_Multi"></activity>
+        <activity android:name="com.danielszabo.android.capitalquiz.QuizActivity_Multi"></activity>
+        <activity android:name="com.danielszabo.android.capitalquiz.Registration_Multi"></activity>
+
+    </application>
+
+</manifest>

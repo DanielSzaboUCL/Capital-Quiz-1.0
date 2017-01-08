@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundPage"
+    tools:context="com.danielszabo.android.capitalquiz.QuizActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/btnGroup"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+    <Button
+        android:id="@+id/BackButton"
+        android:layout_margin="8dp"
+        android:background="@color/pink1"
+        android:text="BACK"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_width="73dp"
+        android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtTitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Score Board"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textStyle="bold"
+
+            android:layout_weight="0.69"/>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:padding="20dp"
+        android:elevation="4dp"
+        android:background="@android:color/white"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnGroup">
+
+
+
+        <ListView
+            android:id="@+id/lstRanking"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ListView>
+
+
+    </RelativeLayout>
+</RelativeLayout>
